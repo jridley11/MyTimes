@@ -40,10 +40,33 @@ a {
   color: black;
 }
 
-body {
-  color: black;
+.maincontent {
+  display: flex;
+  border: thin solid black;
 }
 
-div.maincontent {
+.column.large {
   display: flex;
+  width: 630px;
+  border: thin solid black;
+}
+
+.column.medium {
+  display: flex;
+  width: 300px;
+  border: thin solid black;
+}
+
+.column.small {
+  display: flex;
+  width: 240px;
+  border: thin solid black;
+}
+
+.stories {
+  border: thick solid black;
+}
+
+.image-content {
+  border: thin solid black;
 }
